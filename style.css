@@ -2,38 +2,114 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Volkhov', serif;
+    font-size: 20px;
 }
-header{
+header, footer{
     width: 100%;
-    height: 70px;
-    background-color: #454545;
+    height: 80px;
+    background-color: #a2c7e0;
 }
 h1{
     position: absolute;
     padding: 3px;
     float: left;
-    margin-left: 2%;
-    margin-top: 10px;
+    margin-left: 10%;
+    margin-top:12px;
     color: #fff;
 }
 span{
-    color: #333;
+    color: #3e89bc;
 }
 ul{
     width: auto;
     float: right;
-    margin-top: 8px;
+    margin-top:25px;
+    margin-right: 10%;
 }
 li{
     display: inline;
     padding: 15px 30px;
+    font-size: 20px;
 }
 a{
-    text-align: center;
     color: #fff;
     text-decoration: none;
 }
 a:hover{
-    color: #444;
-    transition: .3s;
+    color: #3e89bc;
+    transition: 0.3s;
 }
+img{
+    width: 120px;
+    height: 120px;
+}
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 40px 0;
+    font-size: 20px;
+}
+.textWrap{
+    float: left;
+    margin-top: 10px;
+}
+.current{
+    background-color: #3e89bc;
+}
+.linkedin{
+    text-align: center;
+    color: #3e89bc;
+    text-decoration: none;
+    font-size: 20px;
+}
+button{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border: 3px solid #3e89bc;
+}
+button:hover{
+    background-color: #a2c7e0;
+}
+/* SKILLS AND COURSEWORK */
+.skills ul, .courses ul, .interests ul, .projects ul{
+    float: none;
+    padding-left: 0;
+}
+.skills li, .courses li, .interests li, .projects li{
+    display: block;
+    padding-left: 0;
+}
+.courses a{
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+.courses a:hover{
+    background: #a2c7e0;
+}
+/* EXPERIENCE */
+.experience ul{
+    float: none;
+    padding-left: 0;
+}
+.experience li{
+    padding-left: 0;
+    display: block;
+}
+.experience a{
+    color: #3e89bc;
+}
+.myFooter{
+    margin-left: 10%;
+    padding: 30px 0;
+}
+/* TABLE OF EXPERIENCE */
+ .myTable thead tr{
+     background-color: #a2c7e0;
+     color: #fff;
+     text-align: left;
+ }
+ .myTable th, .myTable td{
+     padding: 12px 15px;
+ }
