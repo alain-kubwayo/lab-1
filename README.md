@@ -1,14 +1,15 @@
+# ASHESI WEB DEVELOPMENT CLASS (LAB-1)
+
 # Alain Honore Kubwayo
 
-# Lab-1 Git Repository Seed
+# Lab-1: Link to GitHub Page where the Portfolio is Hosted
 
-This file is the template for the first lab in Ashesi Web Development 2020.
+Kindly visit the following link to view my portfolio:
+https://alain-kubwayo.github.io/lab-1/
 
 ## Contents
 
 This repository contains a single file, a script for gathering the basic configuration of the user from bash.
+HTML files have been created displaying my short bio, coursework at Ashesi, the projects that I am working on, my interests, and work experience. 
 
-## Using the file
-
-Please refer to your lab instructions for definitive directions. In general, clone this repository to a new repository in your user space.
 
